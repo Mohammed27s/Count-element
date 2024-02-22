@@ -1,0 +1,48 @@
+
+
+//Count Elements in a Stack 
+
+import java.awt.desktop.SystemSleepEvent;
+
+import java.util.Stack;
+
+public class Print {
+
+    public static Stack<Integer> getElement = new Stack<>();
+    public static Stack<Integer> holdElement = new Stack<>();
+
+    public static void main(String[] args){
+
+    getElement.push(50);
+    getElement.push(90);
+    getElement.push(100);
+
+
+    System.out.println("Count Elements in stack ..."+"\n");
+
+    count();
+
+
+
+    }
+    public static void count(){
+
+        if(getElement.size() - 1 >= 0){
+
+            Integer count1 = getElement.elementAt(2);
+            System.out.println("This is the first element : "+count1);
+
+            Integer count2 = getElement.elementAt(1);
+            System.out.println("This is the second element : "+count2);
+
+            Integer count3 = getElement.elementAt(0);
+            System.out.println("This is the third element : "+count3+"\n");
+
+        }
+
+        System.out.println("So there are : "+getElement.size()+" element in the stack ");
+
+
+    }
+
+}
